@@ -1,0 +1,20 @@
+
+.list-block{
+    margin: 10px 0;
+    font-size: 0.85rem;
+}
+
+.little-font-size{
+    font-size: 0.6rem;
+    word-spacing:25px;
+    color: #5f646e;
+}
+
+.big-font-size{
+    font-weight: 600;
+}
+
+/*
+.line{
+    border: 0.01px solid #c8c7cc;
+}*/
