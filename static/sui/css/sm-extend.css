@@ -170,7 +170,7 @@ body > .photo-browser .toolbar {
           transform: translate3d(0, 2.2rem, 0);
 }
 .toolbar ~ .photo-browser-captions.photo-browser-captions-exposed {
-  transformt: ranslate3d(0, 0rem, 0);
+  transformt: translate3d(0, 0rem, 0);
 }
 .photo-browser-caption {
   box-sizing: border-box;

@@ -27,16 +27,6 @@
     width: 100%;
 }
 
-/* Pagination Styles */
-.swiper-pagination {
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 300ms;
-    transition: 300ms;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    z-index: 10;
-}
 
 .handlines{
     width: 100%;
@@ -351,8 +341,10 @@
     right: 0;
     top: 15px;
     text-align: center;
+    align-content: center;
     margin:auto;
 }
+
 
 .content-match .match-army img{
     width: 1.5rem;
@@ -376,5 +368,4 @@
     bottom: 15px;
     text-align: center;
     margin:auto;
-
 }
