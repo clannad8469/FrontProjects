@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+/*用户简介部分*/
+.circle img{
+    border-radius:50%;
+}
+
+.info-title{
+    margin: 0;
+    padding: 0 0 0 0.6rem ;
+    top: 0;
+}
+
+.info-list-block .item-inner {
+    padding-right: 0.75rem;
+    position: relative;
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.35rem;
+    min-height: 2.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.info-item-inner{
+    align-content: flex-start;
+ /*   padding-right: 0.75rem;
+    position: relative;
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.35rem;
+    min-height: 2.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;*/
+}
+
+
+.itemabout{
+    width: 33.3%;
+    height: auto;
+    float: left;
+    background-color: #ffffff;
+}
+
+.itemabout .item-me{
+
+    width: 33.3%;
+    float: inherit;
+    margin: 5px auto;
+}
+
+.itemabout .item-me span{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    clear: left;
+    margin: 0 auto;
+}
+
+/*list one*/
+.list-block .item-content {
+    box-sizing: border-box;
+    padding-left: 0rem;
+    min-height: 2.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.list-block .item-inner {
+    padding-right: 0.75rem;
+    position: relative;
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.35rem;
+    min-height: 2.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+.list-block .item-media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.75rem;
+
+}
+
+.my-info-media img{
+    width: 1.5rem;
+}
+
+.info-item-title{
+    margin: 0 5px 0 10px;
+}
+
+.info-item-after{
+    white-space: nowrap;
+    color: #5f646e;
+    -webkit-flex-shrink: 1;
+    -ms-flex: 0 1 auto;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    max-height: 1.4rem;
+
+
+    margin: 0;
+
+}
+
+

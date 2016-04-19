@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣乐游体育</title>
+    <link rel="stylesheet" href="sui/css/sm.css">
+    <link rel="stylesheet" href="sui/css/sm-extend.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <style>
+        /* Pagination Styles */
+        .my-swiper-pagination {
+            text-align: right;
+        }
+    </style>
+  </head>
+<body>
+    <!--page-->
+    <div class="page">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav">
+            <a class="icon icon-me pull-left"></a>
+            <h1 class="title">圣乐游体育</h1>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external active" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">赛事</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">游戏</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">资讯</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">圈子</span>
+            </a>
+        </nav>
+
+        <!-- 页面内容 -->
+        <div class="content">
+
+            <!-- 轮播部分 -->
+            <div class="content-swiper">
+                <div class="swiper-container" data-space-between='10'  data-autoplay="1000">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
+                        <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
+                        <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
+                        <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
+                        <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
+                    </div>
+                    <div class="swiper-pagination my-swiper-pagination"></div>
+                </div>
+
+                <div class="handlines">
+                    <span>头条简报：陈伟霆化身“威廉学长”，邀你一起天天足球！</span>
+                </div>
+            </div>
+            <div class="partLine"></div>
+
+            <!-- 游戏部分 -->
+            <div class="content-game">
+                <div class="game-title big-font-size">
+                    <span>热门游戏</span>
+                </div>
+                <div class="row content-game1">
+                    <div class="col-50 content-game1-content" id="content-game1-content1">
+                        <div class="content-game1-img">
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                        </div>
+                        <div class="content-game1-cont">
+                            <span class="content-game1-title title-font-size">足球</span>
+                            <div class="content-game1-des des-font-size">
+                                <span class="content-game1-des1"> 好玩</span>
+                                <span class="content-game1-des_num">100人在线</span>
+                            </div>
+                            <span class="content-game1-des-end des-end-font-size">足球梦之队的狂欢</span>
+                        </div>
+                    </div>
+                    <div class="col-50 content-game1-content">
+                        <div class="content-game1-img">
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                        </div>
+                        <div class="content-game1-cont">
+                            <span class="content-game1-title title-font-size">足球</span>
+                            <div class="content-game1-des des-font-size">
+                                <span class="content-game1-des1"> 好玩</span>
+                                <span class="content-game1-des_num">100人在线</span>
+                            </div>
+                            <span class="content-game1-des-end des-end-font-size">足球梦之队的狂欢</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-game2">
+                    <ul >
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content-game2-box">
+                                <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                                <span>3D足球全明星</span>
+                                <span>100万人在线</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="partLine"></div>
+
+            <!-- 新闻部分 -->
+            <div class="content-news">
+                <div class="news-title">
+                    <h1 class="news-title-midd com-title-size">新闻专辑</h1>
+                    <span class="com-title-change" href="#">换一组</span>
+                </div>
+                <div class="row news-up">
+                    <div class="news-up-left">
+                        <span class="news-up-left-title title-font-size">闹事的下场！闹事的下场！闹事的下场！闹事的下场！闹事的下场！皇帝欠队友被弃 0号玩火生涯被废</span>
+                        <div class="news-up-left-down1">
+                            <span>腾讯体育</span>
+                            <span>04.05</span>
+                            <span class="kung">蓝球</span>
+                            <span class="kung">蓝球</span>
+                        </div>
+                        <div class="news-up-left-down2">
+                            <span>关闭</span>
+                            <span>999999</span>
+                        </div>
+                    </div>
+                    <div class="news-up-right">
+                        <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                    </div>
+                </div>
+                <div class="news-down">
+                    <ul>
+                        <li>
+                            <div class="news-down-bg">
+                                <div class="news-down-bg-down">
+                                    <span>巴塞罗那 VS 马德里竞技</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-down-bg">
+                                <div class="news-down-bg-down">
+                                    <span>巴塞罗那 VS 马德里竞技</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-down-bg">
+                                <div class="news-down-bg-down">
+                                    <span>巴塞罗那 VS 马德里竞技</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="partLine"></div>
+
+            <!-- 赛事部分 -->
+            <div class="content-match">
+                <div class="match-title big-font-size">
+                    <span>热门赛事：欧冠的精彩对决</span>
+                </div>
+                <div class="match-content">
+                    <div class="my-col" id="my-col1">
+                        <div class="match-army">
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                            <span>巴塞罗那 VS 马德里竞技</span>
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                        </div>
+                        <div class="match-time">
+                            <span>20:00开球</span>
+                        </div>
+                    </div>
+                    <div class="my-col">
+                        <div class="match-army">
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                            <span>巴塞罗那 VS 马德里竞技</span>
+                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg">
+                        </div>
+                        <div class="match-time">
+                            <span>20:00开球</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 加载JS -->
+    <script src="js/sea.js"></script>
+    <script>
+        seajs.use('homepage',function(m){
+            m.home()
+        })
+    </script>
+</body>
+</html>

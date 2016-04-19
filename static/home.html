@@ -5,26 +5,46 @@
     <title>圣乐游体育</title>
     <link rel="stylesheet" href="sui/css/sm.css">
     <link rel="stylesheet" href="sui/css/sm-extend.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app.css">
 
-    <style>
+
+<!--    <style>
         /* Pagination Styles */
-        .my-swiper-pagination {
+        .my-swiper-pagination{
             text-align: right;
         }
-    </style>
+
+        .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            border-radius: 100%;
+            background: #fff;
+            opacity: 0.2;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #007aff;
+        }
+
+        .swiper-container-horizontal > .swiper-pagination {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+    </style>-->
   </head>
 <body>
     <!--page-->
-    <div class="page">
-        <!-- 标题栏 -->
+  <!--  <div class="page">
+        &lt;!&ndash; 标题栏 &ndash;&gt;
         <header class="bar bar-nav">
             <a class="icon icon-me pull-left"></a>
             <h1 class="title">圣乐游体育</h1>
         </header>
 
-        <!-- 工具栏 -->
+        &lt;!&ndash; 工具栏 &ndash;&gt;
         <nav class="bar bar-tab">
             <a class="tab-item external active" href="#">
                 <span class="icon icon-home"></span>
@@ -48,11 +68,11 @@
             </a>
         </nav>
 
-        <!-- 页面内容 -->
+        &lt;!&ndash; 页面内容 &ndash;&gt;
         <div class="content">
 
-            <!-- 轮播部分 -->
-            <div class="content-swiper">
+            &lt;!&ndash; 轮播部分 &ndash;&gt;
+&lt;!&ndash;            <div class="content-swiper">
                 <div class="swiper-container" data-space-between='10'  data-autoplay="1000">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide my_slide"><a href="index.html"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></a></div>
@@ -68,9 +88,75 @@
                     <span>头条简报：陈伟霆化身“威廉学长”，邀你一起天天足球！</span>
                 </div>
             </div>
-            <div class="partLine"></div>
+            <div class="partLine"></div>&ndash;&gt;
 
-            <!-- 游戏部分 -->
+
+            &lt;!&ndash; 轮播部分 &ndash;&gt;
+            <div>
+                &lt;!&ndash; 图片轮播 &ndash;&gt;
+                <div class="content-swiper tupain-swiper">
+                    <div class="swiper-container" data-space-between='0'  data-autoplay="1000">
+                        <div class="swiper-wrapper" id="my_wrapper">
+                            &lt;!&ndash; 轮播slider列表项模板 &ndash;&gt;
+                            &lt;!&ndash;                        <div class="swiper-slide">
+                                                        <a href="index.html">
+                                                            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+                                                        </a>
+                                                    </div>&ndash;&gt;
+                        </div>
+                        <div class="swiper-pagination my-swiper-pagination">
+                            &lt;!&ndash;  <span class="my-swiper-des">这里可以插入广告语</span>&ndash;&gt;
+                        </div>
+                        <div class="my-swiper-des">
+                            <span class="">这里可以插入广告语</span>
+                        </div>
+                    </div>
+                </div>
+
+                &lt;!&ndash; 文字轮播 &ndash;&gt;
+                <div>
+                    <
+
+                </div>
+                <div class="content-swiper">
+                    <div class="swiper-container" data-space-between='0'  data-autoplay="1000" data-direction="vertical">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="http://www.cnblogs.com/iyangyuan/p/3471300.html">
+                                    <img class="scrollLoading" src="./img/2.jpg" data-url="{{game_advertising_map}}" alt="">
+                                </a>
+                                <div class="my-swiper-des">
+                                    <span class="">这里可以插入广告语</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="http://www.cnblogs.com/iyangyuan/p/3471300.html">
+                                    <img class="scrollLoading" src="./img/2.jpg" data-url="{{game_advertising_map}}" alt="">
+                                </a>
+                                <div class="my-swiper-des">
+                                    <span class="">这里可以插入广告语</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="http://www.cnblogs.com/iyangyuan/p/3471300.html">
+                                    <img class="scrollLoading" src="./img/2.jpg" data-url="{{game_advertising_map}}" alt="">
+                                </a>
+                                <div class="my-swiper-des">
+                                    <span class="">这里可以插入广告语</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination my-swiper-pagination">
+                            &lt;!&ndash;  <span class="my-swiper-des">这里可以插入广告语</span>&ndash;&gt;
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            &lt;!&ndash; 游戏部分 &ndash;&gt;
             <div class="content-game">
                 <div class="game-title big-font-size">
                     <span>热门游戏</span>
@@ -166,7 +252,7 @@
             </div>
             <div class="partLine"></div>
 
-            <!-- 新闻部分 -->
+            &lt;!&ndash; 新闻部分 &ndash;&gt;
             <div class="content-news">
                 <div class="news-title">
                     <h1 class="news-title-midd com-title-size">新闻专辑</h1>
@@ -218,7 +304,7 @@
             </div>
             <div class="partLine"></div>
 
-            <!-- 赛事部分 -->
+            &lt;!&ndash; 赛事部分 &ndash;&gt;
             <div class="content-match">
                 <div class="match-title big-font-size">
                     <span>热门赛事：欧冠的精彩对决</span>
@@ -249,6 +335,203 @@
 
         </div>
 
+    </div>-->
+
+    <!-- Page -->
+    <div class="page">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav c-title">
+            <div class="c-img-me"><img src="img/3.jpg"></div>
+            <h1 class="title c-title-content">圣乐游体育</h1>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">赛事</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">游戏</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label"></span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+        </nav>
+
+        <!--内容部分-->
+        <div class="content c-content">
+            <!-- 轮播部分 -->
+            <div class="c-top">
+                <!-- 图片轮播部分 -->
+                <div class="swiper-container c-swiper-container" data-space-between='0'  data-autoplay="1000">
+                    <div class="c-gradient"></div>
+                    <div class="cm-gradient"></div>
+                    <div class="swiper-wrapper c-swiper-wrapper">
+                        <div class="swiper-slide c-swiper-slide">
+                            <img src="./img/1.jpg">
+                            <div class="c-img-des">
+                                <span>文字点评或广告语</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c-swiper-slide">
+                            <img src="./img/2.jpg">
+                            <div class="c-img-des">
+                                <span>文字点评或广告语</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c-swiper-slide">
+                            <img src="./img/3.jpg">
+                            <div class="c-img-des">
+                                <span>文字点评或广告语</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination c-swiper-pagination" style="bottom: 0;"></div>
+                </div>
+                <!-- 文字轮播部分 -->
+                <div>
+                    <div class="c-word-d">
+                        <img src="img/1.jpg">
+                    </div>
+                    <div class="swiper-container cw-swiper-container" data-space-between='0'  data-autoplay="1000" data-direction="vertical">
+                        <div class="swiper-wrapper cw-swiper-wrapper">
+                            <div class="swiper-slide cw-swiper-slide">
+                                <div class="cw-des">
+                                    <span class="news-font">文字点评或广告语</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide c-swiper-slide">
+                                <div class="cw-des">
+                                    <span class="news-font">文字点评或广告语</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide c-swiper-slide">
+                                <div class="cw-des">
+                                    <span class="news-font">文字点评或广告语</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="c-bigline"></div>
+
+            <!-- 热门游戏 -->
+            <section class="c-hotgame">
+                <div class="c-com-title">
+                    <div class="c-com-title-a">
+                        <a href="#">
+                            <img src="img/1.jpg">
+                            <span>全部</span>
+                        </a>
+                    </div>
+                    <div class="c-com-title-name title-font">
+                        <span>热门游戏</span>
+                    </div>
+                </div>
+                <div class="c-hg-big">
+                    <div class="c-onesmall-game">
+                        <div class="c-onesmall-game-img">
+                            <img src="img/2.jpg">
+                        </div>
+                        <div class="c-onesmall-game-all">
+                            <div class="c-onesmall-game-show show-font">
+                                <span>足球梦之队极品狂欢</span>
+                            </div>
+                            <span class="c-onesmall-game-name game-name">足球</span>
+                            <div class="c-onesmall-game-des">
+                                <span class="c-onesmall-game-des-piaoqian">蓝球</span>
+                                <span class="c-onesmall-game-des-num num-font">100万人在线</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-onesmall-game">
+                        <div class="c-onesmall-game-img">
+                            <img src="img/2.jpg">
+                        </div>
+                        <div class="c-onesmall-game-all">
+                            <div class="c-onesmall-game-show show-font">
+                                <span>足球梦之队极品狂欢</span>
+                            </div>
+                            <span class="c-onesmall-game-name game-name">足球</span>
+                            <div class="c-onesmall-game-des">
+                                <span class="c-onesmall-game-des-piaoqian">蓝球</span>
+                                <span class="c-onesmall-game-des-num num-font">100万人在线</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-hg-small">
+                    <div class="c-onegame">
+                        <div class="c-onegame-img">
+                            <img src="img/3.jpg">
+                        </div>
+                        <span class="game-name">3D足球全明星</span>
+                        <span class="num-font">10万人在线</span>
+                    </div>
+                    <div class="c-onegame">
+                        <div class="c-onegame-img">
+                            <img src="img/3.jpg">
+                        </div>
+                        <span class="game-name">3D足球全明星</span>
+                        <span class="num-font">10万人在线</span>
+                    </div>
+                    <div class="c-onegame">
+                        <div class="c-onegame-img">
+                            <img src="img/3.jpg">
+                        </div>
+                        <span class="game-name">3D足球全明星</span>
+                        <span class="num-font">10万人在线</span>
+                    </div>
+                    <div class="c-onegame">
+                        <div class="c-onegame-img">
+                            <img src="img/3.jpg">
+                        </div>
+                        <span class="game-name">3D足球全明星</span>
+                        <span class="num-font">10万人在线</span>
+                    </div>
+                </div>
+            </section>
+            <div class="c-bigline"></div>
+
+            <!-- 广告 -->
+            <section class="c-recommend">
+                <div class="c-recommend-img">
+                    <a href="#"><img src="img/4.jpg"></a>
+                </div>
+            </section>
+            <div class="c-bigline"></div>
+
+            <!-- 赛事预测 -->
+            <section class="c-match">
+                <div class="c-com-title">
+                    <div class="c-com-title-a">
+                        <a href="#">
+                            <img src="img/1.jpg">
+                            <span>全部</span>
+                        </a>
+                    </div>
+                    <div class="c-com-title-name title-font">
+                        <span>赛事预测</span>
+                    </div>
+                </div>
+            </section>
+            <div class="c-bigline"></div>
+        </div>
+
+
     </div>
 
     <!-- 加载JS -->
@@ -258,5 +541,46 @@
             m.home()
         })
     </script>
+
+    <script>
+        seajs.use(['scrollLoading'],function ($){
+            $(function(){
+                $('.scrollLoading').scrollLoading();
+            });
+        })
+    </script>
+
+
+    <!------------- 框架模板 ---------------->
+    <!--id可以用来唯一确定一个模版,type是模版固定的写法-->
+    <!-- swiper中silder模板 -->
+<!--    <script id="slider_modle" type="text/x-handlebars-template">
+        {{#each this}}
+        <div class="swiper-slide">
+            <a href="{{game_url}}">
+                <img class="scrollLoading"  data-url="{{game_advertising_map}}" alt="">
+                &lt;!&ndash;<img class="samLazyImg" src="{{game_advertising_map}}" alt="">&ndash;&gt;
+            </a>
+        </div>
+        {{/each}}
+    </script>
+
+    <script>
+/*        var config =  {
+            data-speed: 400,
+            data-space-between: 100,
+            data-direction : 'vertical',
+
+        );*/
+
+/*        $(function() {
+            $(".swiper-container").swiper(config);
+        });*/
+
+/*        var mySwiper = new Swiper('.swiper-container',{
+            direction : 'vertical',
+        })*/
+    </script>-->
+
 </body>
 </html>

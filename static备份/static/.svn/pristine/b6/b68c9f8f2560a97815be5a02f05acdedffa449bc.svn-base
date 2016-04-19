@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>注册</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!--<link rel="shortcut icon" href="/favicon.ico">-->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+
+    <!--<link rel="stylesheet" href="_light7/css/light7.css">-->
+    <!--<link rel="stylesheet" href="_light7/css/light7-swiper.css">-->
+    <link rel="stylesheet" href="sui/css/sm.css">
+</head>
+
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left" href="login.html">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+
+        <h1 class='title'>注册</h1>
+    </header>
+    <div class="content">
+        <div class="list-block">
+            <ul>
+                <!-- Text inputs -->
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">账号</div>
+                            <div class="item-input">
+                                <input id="account" type="text" placeholder="请输入账号">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-password"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">密码</div>
+                            <div class="item-input">
+                                <input id="password" type="password" placeholder="请输入密码" class="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-block">
+            <a href="#" class="button button-big button-fill button-success" id="submit">注册</a>
+        </div>
+    </div>
+</div>
+
+<script src="js/sea.js"></script>
+<script>
+    seajs.use('ui_logic',function(m){
+        m.register();
+    })
+</script>
+
+<!--<script src="js/zepto.js"></script>-->
+<!--<script src="sui/js/sm.js"></script>-->
+<!--<script src="js/app.js"></script>-->
+<!--<script>-->
+    <!--//&#45;&#45;请求回调-->
+    <!--function registerCallBack(result)-->
+    <!--{-->
+        <!--$.hidePreloader()-->
+        <!--if(result.status === true) {-->
+            <!--//存储数据-->
+            <!--sessionStorage.account = JSON.stringify(result)-->
+            <!--//界面跳转-->
+            <!--window.location.href = "myInfo.html"-->
+        <!--}else{-->
+            <!--//注册失败提示失败原因-->
+            <!--$.alert(result.msg)-->
+        <!--}-->
+    <!--}-->
+    <!--//按钮回调-->
+    <!--function onRegisterButtonCallback()-->
+    <!--{-->
+        <!--if( $(this).hasClass('disabled')){-->
+            <!--return-->
+        <!--}-->
+
+        <!--var accountInfo = {-->
+            <!--username: $('#account').val(),-->
+            <!--password: $('#password').val()-->
+        <!--}-->
+
+        <!--//请求服务器-->
+        <!--var murl = "http://123.59.58.205:9000/platform/user/register"-->
+       <!--//$.get(murl,accountInfo,registerCallBack,'jsonp');-->
+        <!--request(murl,accountInfo,registerCallBack)-->
+        <!--//等待提示框-->
+        <!--$.showPreloader()-->
+    <!--}-->
+    <!--$(document).on('click', '#submit', onRegisterButtonCallback);-->
+<!--</script>-->
+</body>
+</html>

@@ -74,3 +74,370 @@
     display: block;
     float: left;
 }
+
+
+
+/*------------ 公共CSS ---------------*/
+
+/*---------- 字体设置部分 --------------*/
+/*头条简报字体*/
+.news-font{
+    font-size: 20pt;
+    color: #000;
+}
+
+/* 标题字体 */
+.title-font{
+    font-size: 28pt;
+    font-weight: 900;
+    color: #000;
+}
+
+/* game name 字体 */
+.game-name{
+    /*font-size: 32px;*/
+    font-size: 24pt;
+    font-weight: 100;
+    color: #000;
+}
+/* 在线人数字体 */
+.num-font{
+    font-size: 18pt;
+    color: #868686;
+}
+
+.show-font{
+    font-size: 20pt;
+    color: #868686;
+}
+
+/*---------- 公共标题栏部分 --------------*/
+.c-title{
+    background-color: #ff6600;
+    width: 100%;
+    height: 88px;
+}
+
+.c-img-me{
+    width: 60px;
+    height: 60px;
+    margin: 14px 20px;
+    position: absolute;
+    left: 0;
+}
+.c-img-me img{
+    width: 100%;
+    height: 100%;
+}
+
+.c-title-content {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 -0.5rem;
+    font-size: 28pt;
+    font-weight: 500;
+    line-height: 88px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bar-nav ~ .content {
+    top:88px;
+}
+
+/*---------- 公共Title部分 --------------*/
+.c-com-title{
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    margin: 0 20px;
+    border-bottom: 1px solid #b5b5b5;
+    text-align: center;
+}
+
+.c-com-title-a{
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    line-height: 48px;
+}
+
+.c-com-title-a img{
+    width: 24px;
+    height: 24px;
+    margin: 12px 0;
+    position: relative;
+    float: right;
+}
+
+.c-com-title-a span{
+    position: relative;
+    float: right;
+    margin: 0 10px;
+    color: #ff9900;
+    font-size: 20pt;
+}
+
+
+/*-------------- 首页CSS ----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d7d7d7;
+}
+
+/* 轮播图片部分 */
+.c-top{
+    border-bottom: 1px solid #b5b5b5;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.c-swiper-container,.c-swiper-wrapper{
+    width: 100%;
+    height: 320px;
+    position: relative;
+    text-align: center;
+}
+
+.c-gradient{
+    background: #444;
+    /* background: -moz-linear-gradient(top,  #444 0%, #ffffff 100%);
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444), color-stop(100%,#ffffff));
+     background: -webkit-linear-gradient(top,  #444 0%,#ffffff 100%);
+     background: -o-linear-gradient(top,  #444 0%,#ffffff 100%);
+     background: -ms-linear-gradient(top,  #444 0%,#ffffff 100%);
+     background: linear-gradient(to bottom,  #444 0%,#ffffff 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#ffffff',GradientType=0 );
+ */
+    background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -o-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -ms-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    background: linear-gradient(to bottom,  rgba(0,0,0,1), rgba(0,0,0,0));
+
+    width: 100%;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    z-index: 20;
+}
+
+.cm-gradient{
+
+}
+
+.c-swiper-slide img{
+    width: 100%;
+    height: 320px;
+}
+
+.c-swiper-slide .c-img-des{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    color: #fff;
+    z-index: 50;
+
+    background-color: #111111;
+    opacity: 0.7;
+}
+
+.c-img-des span{
+    margin: 0 15px;
+}
+
+.c-swiper-pagination{
+    text-align: right;
+    /*   background-color: #111111;*/
+    /*  opacity: 0;*/
+    color: #fff;
+}
+
+.swiper-pagination.swiper-pagination-hidden {
+    opacity: 1;
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #007aff;
+}
+
+/* 轮播文字部分 */
+.c-word-d{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.c-word-d img{
+    width: 120px;
+    height: 50px;
+    margin: 5px 5px;
+    padding:0 10px;
+    border-right: 1px solid #b5b5b5;
+}
+
+.cw-swiper-container,.cw-swiper-wrapper{
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    text-align: left;
+
+}
+
+.cw-swiper-slide .cw-des{
+
+}
+
+/* 热门游戏 */
+/*热门游戏内容部分 */
+.c-hotgame{
+    border-bottom: 1px solid #b5b5b5;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+.c-hg-big{
+    width: auto;
+    height: 140px;
+    line-height: normal;
+    border-bottom: 1px solid #b5b5b5;
+    position: relative;
+    margin: 0 20px;
+}
+
+.c-onesmall-game{
+    width: 50%;
+    height: 140px;
+    position: relative;
+    float: left;
+}
+
+.c-hg-big .c-onesmall-game:first-child{
+    border-right: 1px solid #b5b5b5;
+}
+
+.c-onesmall-game-img{
+    width: 96px;
+    height: 96px;
+    margin: 22px 0 22px 20px;
+    position: relative;
+    float: left;
+}
+
+.c-onesmall-game-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.c-onesmall-game-all{
+    width: 300px;
+    height: 96px;
+    margin: 22px 20px;
+    position: relative;
+    float: left;
+}
+
+.c-onesmall-game-des .c-onesmall-game-des-piaoqian{
+    height:24px;
+    line-height: 24px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18pt;
+
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.c-onesmall-game-all .c-onesmall-game-show{
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* 游戏推荐栏 */
+.c-hg-small{
+    width: auto;
+    height: 200px;
+    position: relative;
+    margin: 0 20px;
+    padding: 25px 20px;
+
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-hg-small .c-onegame{
+    /*    width: 140px;*/
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+.c-onegame .c-onegame-img{
+    width: 96px;
+    height: 96px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.c-onegame .c-onegame-img img{
+    width: 96px;
+    height: 96px;
+}
+
+
+/* 广告部分 */
+.c-recommend{
+/*    width: 100%;
+    height: 160px;*/
+    border-bottom: 1px solid #b5b5b5;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.c-recommend .c-recommend-img{
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.c-recommend-img img{
+    width: 100%;
+    height: 100%;
+}
+
